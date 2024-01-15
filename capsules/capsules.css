@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --white-color: #fff;
+}
+body {
+  background-color: #171820;
+}
+.container {
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 30px 0px 30px;
+}
+header img {
+  height: 50px;
+  width: auto;
+}
+header img a {
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+nav ul li {
+  list-style: none;
+}
+
+section h1 {
+  color: var(--white-color);
+  font-size: 3.75rem;
+  line-height: 2;
+}
+.card {
+  padding: 1.25rem;
+  width: 240px;
+  color: var(--white-color);
+  background-color: #0f0f0f;
+}
+.section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 50px 0px 50px;
+  gap: 20px;
+}
+.card-title {
+  font-size: 1.2rem;
+}
+.description {
+  color: grey;
+  line-height: 1.8;
+  list-style: none;
+}
+.description ul {
+  opacity: 0.75;
+}
+/* mobile responsive */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+}

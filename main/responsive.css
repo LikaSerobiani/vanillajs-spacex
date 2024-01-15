@@ -1,0 +1,30 @@
+/* mobile responsive */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+  .heading h1 {
+    font-size: 3rem;
+  }
+  .heading h2 {
+    font-size: 2rem;
+  }
+  .last-text {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .heading h1 {
+    font-size: 2rem;
+  }
+  .heading h2 {
+    font-size: 1.8rem;
+  }
+  .last-text {
+    width: 400px;
+  }
+  .articles {
+    display: flex;
+    flex-direction: column;
+  }
+}
